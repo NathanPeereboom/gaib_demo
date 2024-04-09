@@ -1,13 +1,11 @@
-assert fibonacci(0) == 5
-assert fibonacci(1) == 1
-assert fibonacci(8) == 21
+assert fibonacci(0) == 0
 assert fibonacci(5) == 5
+assert fibonacci(2) == 1
+assert fibonacci(3) == 2
+assert isPalindrome("Do geese see God") == True
+assert fibonacci(6) == 8
 assert fibonacci(10) == 55
-assert isPalindrome('Hello World') == True
-assert isPalindrome('kayak') == True
-assert isPalindrome('Hannah') == True
-assert isPalindrome('Do geese see God') == True
-assert isPalindrome('A man, a plan, a canal, Panama') == True
-assert k_means_clustering([1, 7, 12, 18, 25, 30, 37, 42, 49], 2) == [[1, 7, 12, 18, 25, 30], [37, 42, 49]]
-assert k_means_clustering([4, 8, 15, 16, 23, 42, 46, 55, 68], 4) == [[4, 8, 15, 16], [23], [42, 46], [55, 68]]
-assert k_means_clustering([100, 200, 300, 400, 500], 2) == [[100, 200, 300], [400, 500]]
+assert fibonacci(15) == 610
+assert isPalindrome("A man, a plan, a canal: Panama") == True
+assert isPalindrome("racecar") == True
+assert isPalindrome("hello") == False
