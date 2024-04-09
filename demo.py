@@ -16,4 +16,4 @@ def isPalindrome(s: str):
     return palindrome
 
 def mysteryFunction(x):
-    return x + 5
+    return x + 10
