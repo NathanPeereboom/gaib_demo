@@ -14,3 +14,6 @@ def isPalindrome(s: str):
     r = s[::-1]
     palindrome = (s == r)
     return palindrome
+
+def mysteryFunction(x):
+    return x + 5
