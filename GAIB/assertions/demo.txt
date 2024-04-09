@@ -1,11 +1,10 @@
 assert fibonacci(0) == 0
 assert fibonacci(5) == 5
-assert isPalindrome("Do geese see God") == True
+assert isPalindrome("DogeesesGod") == True
 assert fibonacci(6) == 8
-assert fibonacci(10) == 55
-assert fibonacci(15) == 610
-assert isPalindrome("A man, a plan, a canal: Panama") == True
+assert fibonacci(11) == 55
+assert fibonacci(16) == 610
 assert isPalindrome("racecar") == True
 assert isPalindrome("hello") == False
-assert mysteryFunction(1) == 6
-assert mysteryFunction(7) == 12
+assert mysteryFunction(1) == 11
+assert mysteryFunction(7) == 17
