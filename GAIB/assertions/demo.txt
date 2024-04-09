@@ -6,5 +6,5 @@ assert fibonacci(11) == 55
 assert fibonacci(16) == 610
 assert isPalindrome("racecar") == True
 assert isPalindrome("hello") == False
-assert mysteryFunction(1) == 11
-assert mysteryFunction(7) == 17
+assert mysteryFunction(1) == 16
+assert mysteryFunction(7) == 22
